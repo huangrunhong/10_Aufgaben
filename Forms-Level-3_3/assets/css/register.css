@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(./../fonts/Poppins-Regular.ttf);
+}
+body {
+  background-image: url(https://www.landtiere.de/bilder/2022/10/20/91863382/30102822-eichhoernchen-superheld-luft-2iyGCm7LNlBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  width: 400px;
+  height: 600px;
+  padding-top: 2rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1.25rem;
+  font-family: Poppins;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.title {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  background: linear-gradient(to right, rgb(12, 71, 97), rgb(88, 155, 161));
+  border-radius: 2rem;
+}
+.login a {
+  color: rgb(200, 200, 200);
+}
+.register a {
+  color: white;
+}
+
+.title a:hover {
+  color: white;
+}
+.title a:active {
+  color: white;
+}
+.socialmediens img {
+  width: 2rem;
+}
+.socialmediens {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 4rem;
+  width: 100%;
+  padding-inline: 2.5rem;
+}
+
+.info_input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* margin-inline: 2rem; */
+  gap: 1.5rem;
+}
+.info_input input {
+  display: block;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.check_box {
+  margin-top: 1rem;
+  /* font-size: 15px; */
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+input[type="button"] {
+  display: block;
+  width: 100%;
+  margin-inline: auto;
+  margin-top: 2rem;
+  background: linear-gradient(to right, rgb(12, 71, 97), rgb(88, 155, 161));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+}

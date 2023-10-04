@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+fieldset {
+  margin-top: 2rem;
+  margin-inline: 1rem;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.gender p {
+  width: 10%;
+}
+.gender_option {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.gender_option div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 4px;
+}
+.activity {
+  display: flex;
+  flex-direction: row;
+}
+.activity p {
+  width: 10%;
+}
+
+.activity_option {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.activity_option div {
+  gap: 0.25rem;
+}
+input[type="text"] {
+  padding-block: 1px;
+  padding-inline: 2px;
+}
+div {
+  display: flex;
+  flex-direction: row;
+}
+div > label {
+  width: 10%;
+}
+.button {
+  gap: 4px;
+}

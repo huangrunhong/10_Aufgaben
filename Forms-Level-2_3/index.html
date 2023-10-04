@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms-Level-2_3</title>
+    <link rel="stylesheet" href="./asstes/css/style.css" />
+  </head>
+  <body>
+    <section>
+      <form action="">
+        <fieldset>
+          <legend>Register form</legend>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="Name" id="Name" placeholder="Name" />
+          </div>
+          <div>
+            <label for="Surname">Surname</label>
+            <input
+              type="text"
+              name="Surname"
+              id="Surname"
+              placeholder="Surname"
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="" id="" />
+          </div>
+          <div class="gender">
+            <p>Gender</p>
+            <div class="gender_option">
+              <div>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" />
+              </div>
+              <div>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <label for="picture">Picture</label>
+            <input type="file" id="file" name="file" />
+          </div>
+          <div>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+              <option value="germany">Germany</option>
+              <option value="england">England</option>
+              <option value="america">America</option>
+            </select>
+          </div>
+          <div>
+            <label for="preferred languages">Preferred languages</label>
+            <select name="languages" id="languages" multiple>
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+              <option value="js">JS</option>
+              <option value="react">REACT</option>
+              <option value="argu">ARGU</option>
+            </select>
+            <p>(To choose more than one use and key)</p>
+          </div>
+          <div class="activity">
+            <p>Fieled of activity</p>
+            <div class="activity_option">
+              <div>
+                <input type="checkbox" />
+                <label for="activity">IT</label>
+              </div>
+              <div>
+                <input type="checkbox" />
+                <label for="activity">Design</label>
+              </div>
+              <div>
+                <input type="checkbox" />
+                <label for="activity">Other</label>
+              </div>
+            </div>
+          </div>
+          <div class="button">
+            <input type="button" value="Send" />
+            <input type="button" value="Cancel" />
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
